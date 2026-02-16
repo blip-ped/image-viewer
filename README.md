@@ -5,7 +5,7 @@ View image
 SDL2
 
 # Run
-gcc main.c $(sdl2-config --cflags --libs)
+gcc viewer.c $(sdl2-config --cflags --libs)
 
 # Output
 ./a.out < speaki.ppm
