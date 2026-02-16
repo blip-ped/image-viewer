@@ -1,5 +1,5 @@
-# image-viewer
-view image 
+# Image-Viewer
+View image 
 
 # Requirements
 SDL2
@@ -7,7 +7,8 @@ SDL2
 # Run
 gcc main.c $(sdl2-config --cflags --libs)
 
-# Outpu
+# Output
 ./a.out < speaki.ppm
 
+# Example
 ![Example](speaki.png)
